@@ -14,7 +14,7 @@ Plots and graphics used (including [a photo of my cat!](misc_graphics/ash.jpg))
 are stored in the subdirectories. Julia code for simulating state transfer
 between qubits in quantum networks can be found at
 [`pst_code_plots/c4_perfect_state_transfer`](pst_code_plots/c4_perfect_state_transfer)
-(be mindful of the dependencies listed therein if you wish to run it yourself).
+(be mindful of the dependencies loaded therein if you wish to run it yourself).
 
 I would like to thank the organizers of AUPAC 2025 for the opportunity to
 present my work, as well as express my gratitude to my research supervisors,

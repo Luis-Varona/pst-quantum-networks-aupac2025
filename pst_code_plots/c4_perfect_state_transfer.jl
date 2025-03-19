@@ -1,13 +1,5 @@
-#=
-REQUIRED PACKAGES:
-- FileIO
-- Plots
-- ImageIO
-- ImageMagick
-=#
-
-
 # %%
+using ImageIO, ImageMagick, ImageShow, OpenCV
 using FileIO
 using Plots
 using Plots.PlotMeasures
@@ -43,7 +35,7 @@ function main()
         dpi=300,
     )
     
-    io = PipeBuffer()
+    io = IOBuffer()
     png(amplitude_plot, io)
     amplitude_plot = load(io)[26:1825, 61:1860]
     
